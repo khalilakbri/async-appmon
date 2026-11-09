@@ -16,7 +16,7 @@ npm run dev
 
 graph TD
 
-A[/route]-->B[middleware logger]
+A[route]-->B[middleware logger]
 B-->C[run route handler]
 
 ```
